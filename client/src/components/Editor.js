@@ -28,7 +28,6 @@ function Editor({ socketRef, roomId, onCodeChange, value }) {
           lineNumbers: true,
           value: value,
           indentUnit: 4,
-          indentWithTabs: true,
         }
       );
       editorRef.current = editor;
